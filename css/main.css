@@ -1,0 +1,114 @@
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -30px;
+  /* Pad bottom by footer height */
+  padding: 0 0 30px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 20px;
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+  text-align: right;
+  color: #D8D8D8;
+}
+.home-main{
+	text-align: center;
+}
+.content{
+	padding-top: 65px;
+}
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+.name-lg h1{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 4em;
+	margin-bottom: 10px;
+}
+.name-lg h3{
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 30px;
+}
+.home-main p{
+	font-family: 'Raleway', sans-serif;
+	visibility: visible;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+i:hover {
+	color: #E0A5C3;
+}
+.navbar-default{
+	background-color: white;
+	border-color: white;
+}
+.navbar{
+	font-family: 'Oxygen', sans-serif;
+	text-align: center;
+	font-size: 75%;
+}
+.navbar a:hover{
+	color: #E0A5C3;
+	text-decoration: none;
+}
+.navbar h5{
+	font-weight: bold;
+}
+.about-content{
+	font-family: 'Raleway', sans-serif;
+	font-size: 125%;
+}
+.about-content h1{
+	text-align: center;
+	font-weight: bold;
+}
+.about-content em{
+	font-size: 150%;
+}
+.resume-content{
+	font-family: 'Raleway', sans-serif;
+}
+.resume-content-title{
+	text-align: center;
+	font-weight: bold;
+}
+.resume-header{
+	font-weight: bold;
+}
+.resume-title{
+	color: #BA839F;
+	font-weight: bold;
+}
+.resume-dates{
+	font-style: italic;
+}
+.skills-content{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+.skills-title{
+	font-weight: bold;
+}
+.contact-content{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+.contact-content h2{
+	font-weight: bold;
+}
