@@ -70,6 +70,9 @@ i:hover {
 .navbar h5{
 	font-weight: bold;
 }
+#active{
+	color: #E0A5C3;
+}
 .about-content{
 	font-family: 'Raleway', sans-serif;
 	font-size: 125%;
@@ -107,6 +110,9 @@ i:hover {
 }
 .skills-title{
 	font-weight: bold;
+}
+.skills-list{
+	color: #6E6E6E;
 }
 .contact-content{
 	font-family: 'Raleway', sans-serif;
