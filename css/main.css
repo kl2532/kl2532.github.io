@@ -95,6 +95,9 @@ i:hover {
 	color: #BA839F;
 	font-weight: bold;
 }
+.resume-place a:hover{
+	color: #E0A5C3;
+}
 .resume-dates{
 	font-style: italic;
 }
